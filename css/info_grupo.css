@@ -1,0 +1,109 @@
+/* INFORMAÇÕES NA FOTO*/
+
+.foto-grupo {
+  height: 50%;
+  display: block;
+  background-position: center;
+  position: relative;
+}
+
+.foto-grupo .back{
+  padding: 15px;
+}
+
+.foto-grupo a{
+  color: white;
+}
+
+.foto-grupo h2, .foto-grupo p{
+  color: white;
+  position: absolute;
+  left: 15px;
+  font-weight: 400;
+}
+
+.foto-grupo h2{
+  bottom: 5px;
+}
+
+.foto-grupo p{
+  bottom: 0px;
+  font-size: 11px;
+}
+
+
+
+/* LISTA DE PARTICIPANTES */
+.participantes-grupo{
+  background-color: white;
+  height: auto;
+  margin-top: 15px;
+  padding: 1px 10px 10px 15px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 6px #ccc;
+}
+
+.participante{
+  display: block; 
+  height: 67px;
+}
+
+.participante img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 11px;
+  float: left;
+}
+
+.participante .descricao{
+  float: right;
+  text-align: left;
+  width: calc(100% - 60px);
+  padding: 10px 0px 0px 0px;
+}
+
+.descricao .nome{
+  font-size: 15px;
+  color: #212121;
+  margin: 0px;
+  margin-top: 3px;
+}
+
+.descricao .status {
+  font-size: 13px;
+  color: #888888;
+  margin: 0px;
+  margin-top: 3px;
+}
+
+
+/* FOTOS DOS GRUPOS*/
+.ufcesabia-bg{
+  background: #efe7dd url('../../images/logo-ufcesabia.png') no-repeat;
+  background-size:cover;
+}
+
+/*TÍTULOS DIV*/
+
+.tittle-green{
+  margin-top: 10px; 
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: #00897b;
+}
+
+/* DESCRIÇÃO GRUPO*/
+
+.descricao-grupo{
+  background-color: white;
+  height: auto;
+  padding: 1px 10px 10px 15px;
+  box-shadow: 0px 1px 2px #ccc; 
+}
+
+.descricao-grupo .texto{
+  font-size: 13px;
+  margin-top: 5px;
+  color: #212121;
+}
