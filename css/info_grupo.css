@@ -3,7 +3,6 @@
 .foto-grupo {
   height: 50%;
   display: block;
-  background-position: center;
   position: relative;
 }
 
@@ -20,6 +19,7 @@
   position: absolute;
   left: 15px;
   font-weight: 400;
+  text-shadow: 1px 1px #777;
 }
 
 .foto-grupo h2{
@@ -80,8 +80,41 @@
 
 /* FOTOS DOS GRUPOS*/
 .ufcesabia-bg{
-  background: #efe7dd url('../../images/logo-ufcesabia.png') no-repeat;
+  background: #efe7dd url('../images/logo-ufcesabia.png') no-repeat;
   background-size:cover;
+  background-position: center;
+}
+
+
+.anuario-bg{
+  background: #efe7dd url('../images/anuario.png') no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.hanseniase-bg{
+  background: #efe7dd url('../images/hans.jpg') no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.tilapia-bg{
+  background: #efe7dd url('../images/tilapia.jpg') no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.natchup-bg{
+  background: #efe7dd url('../images/natchup.jpg') no-repeat;
+  background-size:cover;
+  background-position: center;
+
+}
+
+.macarrao-bg{
+  background: #efe7dd url('../images/macarraozin.jpg') no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 
 /*TÍTULOS DIV*/

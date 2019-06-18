@@ -9,6 +9,11 @@ $( document ).ready(function() {
   }
 });
 
+$('#link-sair').click(function () {
+  if (!responder) {
+    return false;
+  }
+});
 
 function historico(){
   if ("conversa" in localStorage) {

@@ -16,6 +16,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background: #efe7dd url('../images/fundo.png') no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 
 .page {
@@ -196,7 +199,7 @@ body {
   color: #000;
   clear: both;
   line-height: 18px;
-  font-size: 15px;
+  font-size: 14px;
   padding: 8px;
   position: relative;
   margin: 3px 0;
@@ -222,6 +225,12 @@ body {
 }
 
 .metadata .time {
+  color: rgba(0, 0, 0, .45);
+  font-size: 11px;
+  display: inline-block;
+}
+
+.time2 {
   color: rgba(0, 0, 0, .45);
   font-size: 11px;
   display: inline-block;
@@ -474,10 +483,9 @@ body {
   z-index: 1;
   margin: 0px;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   width: fit-content;
   box-shadow: 0px 1px 2px #ccc;
-  color: #fe7c7f
 }
 
 .msg-sticker .hora{
@@ -522,4 +530,48 @@ body {
 
 .button:hover{
   background-color: #008a7c;
+}
+
+/* COLOR NOME */
+
+.color-rosa {
+  color: #fe7c7f;
+}
+
+.color-azul{
+  color: #3c78d8;
+}
+
+.color-lilas{
+  color: #c27ba0;
+}
+
+.color-verde{
+  color: #6aa84f;
+}
+
+.color-laranja{
+  color: #ff9900;
+}
+
+.remetente-gp{
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.marcar-gp{
+  color: #3d85c6;
+}
+
+.img-msg{
+  width: 100%;
+  border-radius: 3px;
+}
+
+.time-img{
+  position:absolute;
+  z-index:1;
+  bottom: 15px;
+  right: 15px;
+  color: white;
 }

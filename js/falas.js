@@ -33,9 +33,9 @@ var pergunta_2 = {
     numero: 2,
     tipo: "Sticker",
     msg_certo: "Foi isso mesmo que eu tinha encontrado, confere!",
-    sticker_certo: "feliz1.png",
+    sticker_certo: "feliz2.jpg",
     msg_errado: "Você tem certeza? Quando pesquisei encontrei outra coisa. ",
-    sticker_errado: "triste1.png"
+    sticker_errado: "triste2.jpg"
 }
 
 /* PERGUNTA 2 */
@@ -73,8 +73,8 @@ var pergunta_4 = {
     msg_certo: "É isso mesmo! Além de eficiente pra caramba ainda é econômico. Muito bacana, né?",
     msg_errado: "Olokinho meu, tem certeza de que está certo?",
     tipo: "Sticker",
-    sticker_certo: "feliz1.png",
-    sticker_errado: "triste1.png"
+    sticker_certo: "feliz4.png",
+    sticker_errado: "triste4.png"
 }
 
 /* PERGUNTA 4*/
@@ -111,8 +111,8 @@ var pergunta_6 = {
     msg_certo: "Arrasou! As informações bateram <i class='em em-smiley'></i> Obrigado por ter me ajudado com mais essa!",
     msg_errado: "Que estranho, me disseram outra coisa. Tem certeza de que é essa a resposta?",
     tipo: "Sticker",
-    sticker_certo: "feliz1.png",
-    sticker_errado: "triste1.png"
+    sticker_certo: "feliz6.png",
+    sticker_errado: "triste6.png"
 }
 
 /* FINALIZAR*/
